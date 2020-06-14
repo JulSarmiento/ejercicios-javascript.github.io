@@ -37,7 +37,7 @@ function handleClickOne() {
  */
 function handleClickTwo() {
     if(isNaN(sum)) {
-        alert('¡Mazuzoe dice que debes realizar la sumatoria antes de pasar por aquí, feite!')
+        alert('¡Mazuzoe dice que debes realizar la sumatoria antes de pasar por aquí!')
     } else {
         alert(`El promedio es: ${(sum / TOTAL_NUMBER)}`)
     }
